@@ -5,7 +5,7 @@ This repository contains a competitive growth analytics project comparing India'
 ---
 
 ## 1. What is built?
-Built an integrated analytics repository that aligns and merges two datasets:
+This project provides an integrated analytics repository that aligns and merges two primary datasets:
 1. **Digital Interest Layer (Google Trends)**: Monthly search interest index for "Zomato" and "Swiggy" in India.
 
 2. **Financial Performance Layer**: Quarterly financial outcomes, including Transaction Value, Monthly Transacting Users (MTUs), Adjusted Revenue, and EBITDA margins.
@@ -42,15 +42,14 @@ The analysis answers exactly five core business questions:
 
 ---
 
-## 4. Decisions and Tech Stack
+## 4. Key Business & Product Decisions
 
-### Key Business & Product Decisions
 *   **Zomato App-Direct Strategy**: Since search volume has decoupled from performance, Zomato should focus product efforts on in-app loyalty (Zomato Gold) and active user retention rather than web-search marketing.
 
 *   **Swiggy Campaign Alignment**: Since search interest acts as a 1-quarter leading indicator of sales for Swiggy, marketing campaigns should be planned to pre-emptively build driver capacity and delivery readiness.
 
 *   **Take Rate Pricing**: Zomato can defend its 32.03% take rate by offering value-added services to vendors, while Swiggy should test pricing elasticity to expand its take rate from the current 25.59%.
 
-### Tech Stack
+## 5. Tech Stack
 *   **Dashboard Visualizations**: Power BI (Custom layouts, time-sorting configurations, and DAX measures)
 *   **Data Preparation & Statistics**: Jupyter Notebooks, Python (Pandas, Numpy, Seaborn, Matplotlib)
